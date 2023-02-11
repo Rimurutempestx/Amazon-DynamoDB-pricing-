@@ -8,8 +8,11 @@ I thought that since the DynamoDB users are only increasing as time goes by I wo
 
 # Amazon DynamoDB pricing
 
-DynamoDb charges for reading, writing, and storing data in your DynamoDB tables, along with any optional features you choose to enable so your utilization is a big factor that will determine price of the services that you use. DynamoDB has two capacity modes, which come with specific billing options for processing reads and writes on your tables: on-demand capicity mode and provisioned capacity mode.
+DynamoDb charges for reading, writing, and storing data in your DynamoDB tables, along with any optional features you choose to enable so your utilization is a big factor that will determine price of the services that you use. DynamoDB has two capacity modes, which come with specific billing options for processing reads and writes on your tables: on-demand capicity mode and provisioned capacity mode. I will include the roundabout estimate cost for each dynamodb service, to get a more comfortable feel of service prices.
 
 ## On-demand capacity
 
 With on-demand capacity mode, you pay per request for the data reads and writes your application performs on your tables. You do not need to specify how much read and write throughput you expect your application to perform, as DynamoDB instantly accommodates your workloads as they ramp up or down.
+
+
+
