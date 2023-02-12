@@ -109,6 +109,29 @@ Data import from Amazon S3 Price: $0.15 per GB
 
 ## DynamoDB Accelerator (DAX)
 
+DynamoDB charges for DAX capacity by the hour and your DAX instances run with no long-term commitments. Pricing is per node-hour consumed and is dependent on the instance type you select. Each partial node-hour consumed is billed as a full hour. Pricing applies to all individual nodes in the DAX cluster. For example, if you have a three-node DAX cluster, you are billed for each of the separate nodes (three nodes in total) on an hourly basis. There is no charge for data transfer between Amazon Elastic Compute Cloud (Amazon EC2) and DAX within the same Availability Zone. Standard Amazon EC2 data transfer charges apply when transferring data between an Amazon EC2 instance and a DAX node in different Availability Zones of the same AWS Region. However, you are charged only for the data transfer into or out of the Amazon EC2 instance. There is no DAX data transfer charge for traffic into or out of the DAX node itself.
+
+Dax Node Type	vCPU	Memory (GiB)	Pricing
+dax.t3.small	2	2	$0.04 Per Hour
+dax.t3.medium	2	4	$0.08 Per Hour
+dax.t2.small	1	2	$0.04 Per Hour
+dax.t2.medium	2	4	$0.08 Per Hour
+dax.r5.large	2	16	$0.255 Per Hour
+dax.r5.xlarge	4	32	$0.509 Per Hour
+dax.r5.2xlarge	8	64	$1.017 Per Hour
+dax.r5.4xlarge	16	128	$2.034 Per Hour
+dax.r5.8xlarge	32	256	$4.069 Per Hour
+dax.r5.12xlarge	48	384	$6.117 Per Hour
+dax.r5.16xlarge	64	512	$8.137 Per Hour
+dax.r5.24xlarge	96	768	$12.234 Per Hour
+dax.r4.large	2	15.25	$0.34 Per Hour
+dax.r4.xlarge	4	30.5	$0.537 Per Hour
+dax.r4.2xlarge	8	61	$1.074 Per Hour
+dax.r4.4xlarge	16	122	$2.148 Per Hour
+dax.r4.8xlarge	32	244	$4.295 Per Hour
+dax.r4.16xlarge	64	488	$8.59 Per Hour
+
+
 
 
 
