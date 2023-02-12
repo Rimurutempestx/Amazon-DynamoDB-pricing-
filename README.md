@@ -71,6 +71,18 @@ Restoring a table from on-demand backups or PITR is charged based on the total s
 Warm Backup Storage $0.15 per GB and 
 Cold backup Storage $0.20 per GB
 
+## Global Tables
+
+When you select on-demand capacity mode for your DynamoDB global tables, you pay only for the resources your application uses on each replica table. Write requests for global tables are measured in replicated write request units instead of standard write request units. The number of write request units consumed for replication depends on the version of global tables you are using. The pricing depends on your table class. If you add a table replica to create or extend a global table in new Regions, DynamoDB charges for a table restore in the added Regions per gigabytes of data restored. Cross-Region replication and adding replicas to tables that contain data also incur charges for data transfer out. 
+
+#### DynamoDB Standard table class
+
+Global Tables Resource Type: Replicated write request unit, Price:	$1.875 per million replicated write request units
+
+#### DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA) table class
+
+Global Tables Resource Type: Replicated write request unit, Price:	$2.344 per million replicated write request units
+
 
 
 
