@@ -19,7 +19,7 @@ Even though DynamoDB is one service there are a multitude of things that can det
 
 When you select on-demand capacity mode for your DynamoDB table, you pay only for the reads and writes your application performs. You can make API calls as needed without managing throughput capacity on the table. DynamoDB handles the management of hardware resources to accommodate your workload with consistent, low-latency performance. DynamoDB charges one write request unit for each write (up to 1 KB) and two write request units for transactional writes. For reads, DynamoDB charges one read request unit for each strongly consistent read (up to 4 KB), two read request units for each transactional read, and one-half read request unit for each eventually consistent read. The prices for read and write requests depend on your table class. 
 
-DynamoDB Standard table class:
+#### DynamoDB Standard table class:
 
 On-Demand Throughput Type	Price
 
@@ -27,7 +27,7 @@ Write Request Units (WRU) -	$1.25 per million write request units
 Read Request Units (RRU) - $0.25 per million read request units
 
 
-DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA) table class:
+#### DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA) table class:
 
 
 On-Demand Throughput Type	Price
