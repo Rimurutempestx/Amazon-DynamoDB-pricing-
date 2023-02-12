@@ -107,6 +107,7 @@ Amazon DynamoDB data import provides a simple and efficient way to move data bet
 
 Data import from Amazon S3 Price: $0.15 per GB
 
+## DynamoDB Accelerator (DAX)
 
 
 
