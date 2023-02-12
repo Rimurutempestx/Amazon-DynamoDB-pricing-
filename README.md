@@ -89,6 +89,25 @@ DynamoDB charges for change data capture for Amazon Kinesis Data Streams in chan
 
 Change data capture for Amazon Kinesis Data Streams: Price: $0.10 per million change data capture units
 
+## Change Data Capture for AWS Glue
+
+DynamoDB charges for change data capture for AWS Glue in change data capture units. DynamoDB charges one change data capture unit for each write (up to 1 KB). You pay only for the writes your application performs without having to manage throughput capacity on your table. AWS Glue charges still apply when you replicate DynamoDB changes to an AWS Glue target database. 
+
+Change data capture for AWS Glue: Price: $0.10 per million change data capture units.
+
+## Data export to Amazon S3
+
+Use this feature to export data from your DynamoDB continuous backups (point-in-time recovery) to Amazon Simple Storage Service (Amazon S3). The supported output data formats are DynamoDB JSON and Amazon Ion. You can analyze the exported data by using AWS services such as Amazon Athena, Amazon SageMaker, and AWS Lake Formation. DynamoDB charges for data you export based on the size of each DynamoDB table (table data and local secondary indexes) at the specified point in time when the backup was created.
+
+Data Export to Amazon S3 Price: $0.10 per GB
+
+## Data Import to Amazon S3
+
+Amazon DynamoDB data import provides a simple and efficient way to move data between Amazon S3 and DynamoDB tables without writing any code. You can copy tables between AWS regions and accounts to help migrate data and build new applications, facilitate data sharing and collaboration between teams, and help simplify disaster recovery and business continuity planning. Data import pricing is based on the uncompressed file size in Amazon S3. Amazon S3 charges also apply for storing your source data and for GET requests made against your Amazon S3 bucket.
+
+Data import from Amazon S3 Price: $0.15 per GB
+
+
 
 
 
