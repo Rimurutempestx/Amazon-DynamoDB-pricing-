@@ -23,12 +23,16 @@ DynamoDB Standard table class:
 
 On-Demand Throughput Type	Price
 Write Request Units (WRU) -	$1.25 per million write request units
+
 Read Request Units (RRU) - $0.25 per million read request units
+
 
 DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA) table class:
 
+
 On-Demand Throughput Type	Price
 Write Request Units (WRU)	- $1.56 per million write request units
+
 Read Request Units (RRU)	- $0.31 per million read request units
 
 ### Data storage
