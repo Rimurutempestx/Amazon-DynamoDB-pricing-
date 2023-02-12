@@ -39,11 +39,11 @@ Read Request Units (RRU)	- $0.31 per million read request units
 
 You do not need to provision storage: DynamoDB monitors the size of your tables continuously to determine your storage charges. DynamoDB measures the size of your billable data by adding the raw byte size of your data plus a per-item storage overhead that depends on the features you have enabled. The price for data storage depends on your table class. 
 
-#### DynamoDB Standard table class
+#### DynamoDB Standard table class:
 
 First 25 GB stored per month is free using the DynamoDB Standard table class and $0.25 per GB-month thereafter
 
-#### DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA) table class
+#### DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA) table class:
 
 $0.10 per GB-month
 
