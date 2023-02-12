@@ -47,6 +47,27 @@ First 25 GB stored per month is free using the DynamoDB Standard table class and
 
 $0.10 per GB-month
 
+## Backup and Restore 
+
+DynamoDB offers two methods to back up your table data. Continuous backups with point-in-time recovery (PITR) provide an ongoing backup of your table for the preceding 35 days. You can restore your table to the state of any specified second in the preceding five weeks. On-demand backups create snapshots of your table to archive for extended periods to help you meet corporate and governmental regulatory requirements.
+
+#### Continuous backups (PITR):
+
+DynamoDB charges for PITR based on the size of each DynamoDB table (table data and local secondary indexes) on which it is enabled. DynamoDB monitors the size of your PITR-enabled tables continuously throughout the month to determine your backup charges and continues to bill you until you disable PITR on each table.
+
+$0.20 per GB-month.
+
+#### On-demand backup:
+
+DynamoDB charges for on-demand backups based on the storage size of the table (table data and local secondary indexes). The size of each backup is determined at the time of each backup request. The total backup storage size billed each month is the sum of all backups of DynamoDB tables. DynamoDB monitors the size of on-demand backups continuously throughout the month to determine your backup charges. 
+
+Warm Backup Storage $0.10 per GB-month
+Cold Backup Storage $0.03 per GB-month
+
+#### Restoring a table
+
+Restoring a table from on-demand backups or PITR is charged based on the total size of data restored (table data, local secondary indexes, and global secondary indexes) for each request.
+
 
 
 
