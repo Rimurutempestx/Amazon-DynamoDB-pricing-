@@ -15,7 +15,24 @@ DynamoDb charges for reading, writing, and storing data in your DynamoDB tables,
 
 Even though DynamoDB is one service there are a multitude of things that can determine your price output. AWS calls it DynamoDB deatiled featured pricing where pricing split up into diffrent types of DynamoDB use cases read and write requests, Data storage, backup and restore, global tables, change data capture for Amazon Kinesis Data Streams, change data capture for AWS Glue, data export to Amazon S3, data import from Amazon S3, DynamoDB Accelerator (DAX), DynamoDB streams, and data transfers. I know it's alot but were going to seperate it and break it all down (remember that some of theses pricings can be difrrent depending on the region you live in, for this specific breakdown I'm going to be using my region which is US East (Ohio)).
 
-### sjnsnsjs
+### Read and write requests 
+
+When you select on-demand capacity mode for your DynamoDB table, you pay only for the reads and writes your application performs. You can make API calls as needed without managing throughput capacity on the table. DynamoDB handles the management of hardware resources to accommodate your workload with consistent, low-latency performance. DynamoDB charges one write request unit for each write (up to 1 KB) and two write request units for transactional writes. For reads, DynamoDB charges one read request unit for each strongly consistent read (up to 4 KB), two read request units for each transactional read, and one-half read request unit for each eventually consistent read. The prices for read and write requests depend on your table class. 
+
+DynamoDB Standard table class:
+
+On-Demand Throughput Type	Price
+Write Request Units (WRU) -	$1.25 per million write request units
+Read Request Units (RRU) - $0.25 per million read request units
+
+DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA) table class:
+
+On-Demand Throughput Type	Price
+Write Request Units (WRU)	- $1.56 per million write request units
+Read Request Units (RRU)	- $0.31 per million read request units
+
+### Data storage
+
 
 
 
