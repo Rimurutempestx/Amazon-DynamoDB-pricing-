@@ -83,6 +83,12 @@ Global Tables Resource Type: Replicated write request unit, Price:	$1.875 per mi
 
 Global Tables Resource Type: Replicated write request unit, Price:	$2.344 per million replicated write request units
 
+## Change data capture for Amazon Kinesis Data Streams
+
+DynamoDB charges for change data capture for Amazon Kinesis Data Streams in change data capture units. DynamoDB charges one change data capture unit for each write (up to 1 KB). You pay only for the writes your application performs without having to manage throughput capacity on the table. Kinesis Data Streams charges still apply when you replicate DynamoDB changes to a Kinesis data stream.
+
+Change data capture for Amazon Kinesis Data Streams: Price: $0.10 per million change data capture units
+
 
 
 
