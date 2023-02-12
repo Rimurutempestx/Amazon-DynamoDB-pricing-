@@ -113,7 +113,7 @@ DynamoDB charges for DAX capacity by the hour and your DAX instances run with no
 
 Prices: vary based on Dax Node Type, vCPU,and Memory(GIB)
 
-[Untitled design-3.pdf](https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10717601/Untitled.design-3.pdf)
+(https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10717601/Untitled.design-3.pdf)
 
 
 
