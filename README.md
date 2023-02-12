@@ -61,12 +61,15 @@ $0.20 per GB-month.
 
 DynamoDB charges for on-demand backups based on the storage size of the table (table data and local secondary indexes). The size of each backup is determined at the time of each backup request. The total backup storage size billed each month is the sum of all backups of DynamoDB tables. DynamoDB monitors the size of on-demand backups continuously throughout the month to determine your backup charges. 
 
-Warm Backup Storage $0.10 per GB-month
+Warm Backup Storage $0.10 per GB-month and
 Cold Backup Storage $0.03 per GB-month
 
 #### Restoring a table
 
 Restoring a table from on-demand backups or PITR is charged based on the total size of data restored (table data, local secondary indexes, and global secondary indexes) for each request.
+
+Warm Backup Storage $0.15 per GB and 
+Cold backup Storage $0.20 per GB
 
 
 
