@@ -139,4 +139,19 @@ Data transfer in and out refers to transfer into and out of DynamoDB. DynamoDB d
 
 ![Data Transfer.pdf](https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10718369/Data.Transfer.pdf)
 
+# DynamoDB detailed feature pricing (provisioned capacity)
+
+With provisioned capacity mode, you specify the number of data reads and writes per second that you require for your application. You can use auto scaling to automatically adjust your table’s capacity based on the specified utilization rate to ensure application performance while reducing costs. This pricing page details how DynamoDB charges for the core and optional features of DynamoDB.
+
+## Read and write requests
+
+When you select provisioned capacity mode, you specify the read and write capacity that you expect your application to require. You can use auto scaling to automatically adjust your table’s capacity based on the specified utilization rate to ensure application performance while reducing costs. DynamoDB charges one WCU for each write per second (up to 1 KB) and two WCUs for each transactional write per second. For reads, DynamoDB charges one RCU for each strongly consistent read per second, two RCUs for each transactional read per second, and one-half of an RCU for each eventually consistent read per second (up to 4 KB). You will be charged for the throughput capacity (reads and writes) you provision in your Amazon DynamoDB table, even if you do not fully utilize the provisioned capacity. The price for provisioned capacity depends on your table class. The actual reads and writes performance of your DynamoDB tables may vary and may be less than the throughput capacity that you provision.
+
+![DynamoDB standard class.pdf](https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10727038/DynamoDB.standard.class.pdf)
+
+
+
+
+
+
 
