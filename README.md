@@ -125,5 +125,10 @@ Prices: vary based on Dax Node Type, vCPU,and Memory(GIB)
 
 DAX T3 instances run in unlimited mode, which means that you will be charged if your average CPU utilization over a rolling 24-hour period exceeds the baseline of the instance. CPU credits are charged at $0.096 per vCPU-hour. The CPU credit pricing is the same for all T3 instance sizes across all AWS Regions.
 
+## DynamoDB Streams
 
+DynamoDB charges for reading data from DynamoDB Streams in read request units. Each GetRecords API call is billed as a streams read request unit and returns up to 1 MB of data from DynamoDB Streams. Streams read request units are unique from read requests on your DynamoDB table. You are not charged for GetRecords API calls invoked by AWS Lambda as part of DynamoDB triggers. You also are not charged for GetRecords API calls invoked by DynamoDB global tables.
+
+Every month, the first 2,500,000 DynamoDB Streams read request units are free
+$0.02 per 100,000 DynamoDB Streams read request units thereafter
 
