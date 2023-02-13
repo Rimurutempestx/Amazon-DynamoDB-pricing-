@@ -185,7 +185,7 @@ DynamoDB charges for on-demand backups based on the storage size of the table (t
 - Warm Backup Storage:	$0.10 per GB-month
 - Cold Backup Storage:	$0.03 per GB-month
 
-* Cold backup storage is supported for on-demand backups that are managed by AWS Backup only. You can opt-in to use AWS Backup from the AWS Management Console. Backups that are transitioned to Cold Storage have a minimum 90 days of storage, and backups deleted before 90 days incur a pro-rated charge equal to the storage charge for the remaining days.
+(Cold backup storage is supported for on-demand backups that are managed by AWS Backup only. You can opt-in to use AWS Backup from the AWS Management Console. Backups that are transitioned to Cold Storage have a minimum 90 days of storage, and backups deleted before 90 days incur a pro-rated charge equal to the storage charge for the remaining days.)
 
 
 
