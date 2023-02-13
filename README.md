@@ -168,4 +168,5 @@ You do not need to provision storage: DynamoDB monitors the size of your tables 
 #### DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA) table class
 - $0.10 per GB-month
 
+## Backup and restore
 
