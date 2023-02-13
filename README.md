@@ -157,8 +157,15 @@ You may purchase DynamoDB reserved capacity by submitting a request through the 
 
 ![Untitled design-4.pdf](https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10727056/Untitled.design-4.pdf)
 
+## Data storage 
 
+You do not need to provision storage: DynamoDB monitors the size of your tables continuously to determine your storage charges. DynamoDB measures the size of your billable data by adding the raw byte size of your data plus a per-item storage overhead that depends on the features you have enabled.
 
+#### DynamoDB standard class
+- First 25 GB stored per month is free using the DynamoDB Standard table class
+- $0.25 per GB-month thereafter
 
+#### DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA) table class
+- $0.10 per GB-month
 
 
