@@ -170,3 +170,25 @@ You do not need to provision storage: DynamoDB monitors the size of your tables 
 
 ## Backup and restore
 
+DynamoDB offers two methods to back up your table data. Continuous backups with point-in-time recovery (PITR) provide an ongoing backup of your table for the preceding 35 days. You can restore your table to the state of any specified second in the preceding five weeks. On-demand backups create snapshots of your table to archive for extended periods to help you meet corporate and governmental regulatory requirements.
+
+#### Continuous backups (PITR)
+
+DynamoDB charges for PITR based on the size of each DynamoDB table (table data and local secondary indexes) on which it is enabled. DynamoDB monitors the size of your PITR-enabled tables continuously throughout the month to determine your backup charges and continues to bill you until you disable PITR on each table.
+
+- $0.20 per GB-month
+
+#### On-demand backup
+
+DynamoDB charges for on-demand backups based on the storage size of the table (table data and local secondary indexes). The size of each backup is determined at the time of each backup request. The total backup storage size billed each month is the sum of all backups of DynamoDB tables. DynamoDB monitors the size of on-demand backups continuously throughout the month to determine your backup charges. You can use DynamoDB or AWS Backup to create and manage on-demand backups. With AWS Backup you can centralize and automate data protection across AWS services. AWS Backup also offers advanced features such cross-account and cross-Region on-demand backup copying, low-cost storage tier, backup tagging, and backup encryption that is independent from its source data to help meet your business continuity requirements and optimize backup costs. Additional charges apply for cross-Region data transfer.
+
+- Warm Backup Storage:	$0.10 per GB-month
+- Cold Backup Storage:	$0.03 per GB-month
+
+* Cold backup storage is supported for on-demand backups that are managed by AWS Backup only. You can opt-in to use AWS Backup from the AWS Management Console. Backups that are transitioned to Cold Storage have a minimum 90 days of storage, and backups deleted before 90 days incur a pro-rated charge equal to the storage charge for the remaining days.
+
+
+
+
+
+
