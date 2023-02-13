@@ -149,6 +149,13 @@ When you select provisioned capacity mode, you specify the read and write capaci
 
 ![DynamoDB standard class.pdf](https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10727038/DynamoDB.standard.class.pdf)
 
+## Reserved cpacity
+
+DynamoDB reserved capacity can help you save on your provisioned capacity costs by making an upfront commitment on your base level of provisioned capacity. With reserved capacity, you pay a one-time upfront fee and commit to a minimum provisioned usage level over a period of time. Reserved capacity is billed at a discounted hourly rate. Any capacity that you provision in excess of your reserved capacity is billed at undiscounted provisioned capacity rates. Reserved capacity is available for single-region, provisioned read and write capacity units (RCU and WCU) on DynamoDB tables that use the DynamoDB Standard table class. Reserved capacity is not available for tables that use the DynamoDB Standard-IA table class, or on-demand capacity.
+
+You may purchase DynamoDB reserved capacity by submitting a request through the AWS Management Console. Reserved capacity is purchased in blocks of 100 WCUs or 100 RCUs. You cannot purchase reserved capacity for replicated WCUs (rWCUs). When you purchase reserved capacity, you must designate an AWS Region, quantity, and term. You will be charged (1) a one-time upfront fee, and (2) an hourly fee for each hour during the term based on the amount of DynamoDB reserved capacity you purchase. DynamoDB reserved capacity is also subject to all storage, data transfer, and other fees applicable under the AWS Customer Agreement or other agreement with us governing your use of our services.
+
+![Untitled design-4.pdf](https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10727056/Untitled.design-4.pdf)
 
 
 
