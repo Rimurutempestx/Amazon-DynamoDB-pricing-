@@ -116,6 +116,7 @@ Prices: vary based on Dax Node Type, vCPU,and Memory(GIB)
 
 
 
+![Untitled design-3.pdf](https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10717688/Untitled.design-3.pdf)
 
 
 
