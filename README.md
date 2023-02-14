@@ -206,7 +206,11 @@ DynamoDB charges for change data capture for Amazon Kinesis Data Streams in chan
 
 Change data capture for Amazon Kinesis Data Streams:	$0.10 per million change data capture units
 
+## Change data capture for AWS Glue
 
+DynamoDB charges for change data capture for AWS Glue in change data capture units. DynamoDB charges one change data capture unit for each write (up to 1 KB). You pay only for the writes your application performs without having to manage throughput capacity on your table. AWS Glue charges still apply when you replicate DynamoDB changes to an AWS Glue target database. 
+
+Change data capture for AWS Glue:	$0.10 per million change data capture units
 
 
 
