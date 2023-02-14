@@ -212,8 +212,11 @@ DynamoDB charges for change data capture for AWS Glue in change data capture uni
 
 Change data capture for AWS Glue:	$0.10 per million change data capture units
 
+## Data export to Amazon S3
 
+Use this feature to export data from your DynamoDB continuous backups (point-in-time recovery) to Amazon Simple Storage Service (Amazon S3). The supported output data formats are DynamoDB JSON and Amazon Ion. You can analyze the exported data by using AWS services such as Amazon Athena, Amazon SageMaker, and AWS Lake Formation. DynamoDB charges for data you export based on the size of each DynamoDB table (table data and local secondary indexes) at the specified point in time when the backup was created. Additional charges apply for storing exported data in Amazon S3 and for PUT requests made against your Amazon S3 bucket. 
 
+Data Export to Amazon S3:	$0.10 per GB
 
 
 
