@@ -187,6 +187,14 @@ DynamoDB charges for on-demand backups based on the storage size of the table (t
 
 (Cold backup storage is supported for on-demand backups that are managed by AWS Backup only. You can opt-in to use AWS Backup from the AWS Management Console. Backups that are transitioned to Cold Storage have a minimum 90 days of storage, and backups deleted before 90 days incur a pro-rated charge equal to the storage charge for the remaining days.)
 
+#### Restoring a table
+
+Restoring a table from on-demand backups or PITR is charged based on the total size of data restored (table data, local secondary indexes, and global secondary indexes) for each request.
+
+- Warm Backup Storage:	$0.15 per GB
+- Cold Backup Storage:	$0.20 per GB
+
+(Restoring from cold backup storage is supported for on-demand backups that are managed by AWS Backup only. You can opt-in to use AWS Backup from the AWS Management Console. Cold backup storage is not applicable for continuous backups with point-in-time recovery (PITR).)
 
 
 
