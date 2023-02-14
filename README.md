@@ -202,5 +202,19 @@ DynamoDB charges for global tables usage based on the resources used on each rep
 
 ![Untitled design-5.pdf](https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10727656/Untitled.design-5.pdf)
 
+DynamoDB charges for change data capture for Amazon Kinesis Data Streams in change data capture units. DynamoDB charges one change data capture unit for each write (up to 1 KB). You pay only for the writes your application performs without having to manage throughput capacity on the table. Kinesis Data Streams charges still apply when you replicate DynamoDB changes to a Kinesis data stream.
+
+Change data capture for Amazon Kinesis Data Streams:	$0.10 per million change data capture units
+
+
+
+
+
+
+
+
+
+
+
 
 
