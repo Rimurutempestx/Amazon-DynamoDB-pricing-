@@ -230,8 +230,12 @@ DynamoDB charges for DAX capacity by the hour and your DAX instances run with no
 
 ![Dax Node TypevCPUMemory (GiB)Pricingdax.t3.small22$0.04 Per Hourdax.t3.medium24$0.08 Per Hourdax.t2.small12$0.04 Per Hourdax.t2.medium24$0.08 Per Hourdax.r5.large216$0.255 Per Hourdax.r5.xlarge432$0.509 Per Hourdax.r.pdf](https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10737056/Dax.Node.TypevCPUMemory.GiB.Pricingdax.t3.small22.0.04.Per.Hourdax.t3.medium24.0.08.Per.Hourdax.t2.small12.0.04.Per.Hourdax.t2.medium24.0.08.Per.Hourdax.r5.large216.0.255.Per.Hourdax.r5.xlarge432.0.509.Per.Hourdax.r.pdf)
 
+## DynamoDB Streams
 
+DynamoDB charges for reading data from DynamoDB Streams in read request units. Each GetRecords API call is billed as a streams read request unit and returns up to 1 MB of data from DynamoDB Streams. Streams read request units are unique from read requests on your DynamoDB table. You are not charged for GetRecords API calls invoked by AWS Lambda as part of DynamoDB triggers. You also are not charged for GetRecords API calls invoked by DynamoDB global tables.
 
+- Every month, the first 2,500,000 DynamoDB Streams read request units are free
+- $0.02 per 100,000 DynamoDB Streams read request units thereafter
 
 
 
