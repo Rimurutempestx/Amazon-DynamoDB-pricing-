@@ -237,6 +237,11 @@ DynamoDB charges for reading data from DynamoDB Streams in read request units. E
 - Every month, the first 2,500,000 DynamoDB Streams read request units are free
 - $0.02 per 100,000 DynamoDB Streams read request units thereafter
 
+## Data transfer
+
+Data transfer in and out refers to transfer into and out of DynamoDB. DynamoDB does not charge for inbound data transfer, and it does not charge for data transferred between DynamoDB and other AWS services within the same AWS Region (in other words, $0.00 per GB). Data transferred across AWS Regions (such as between DynamoDB in the US East [N. Virginia] Region and Amazon EC2 in the EU [Ireland] Region) is charged on both sides of the transfer. As part of the AWS Free Tier, you receive 1 GB of free data transfer out each month, aggregated across all AWS services except in the AWS GovCloud (US) Region.
+
+
 
 
 
