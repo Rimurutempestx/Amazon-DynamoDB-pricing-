@@ -218,6 +218,35 @@ Use this feature to export data from your DynamoDB continuous backups (point-in-
 
 Data Export to Amazon S3:	$0.10 per GB
 
+## Data import from Amazon S3
+
+Amazon DynamoDB data import provides a simple and efficient way to move data between Amazon S3 and DynamoDB tables without writing any code. You can copy tables between AWS regions and accounts to help migrate data and build new applications, facilitate data sharing and collaboration between teams, and help simplify disaster recovery and business continuity planning. Data import pricing is based on the uncompressed file size in Amazon S3. The supported input data formats are CSV, DynamoDB JSON, and Amazon Ion. Amazon S3 charges also apply for storing your source data and for GET requests made against your Amazon S3 bucket. 
+
+Data import from S3: $0.15 per GB
+
+## DynamoDB Accelerator (DAX)
+
+DynamoDB charges for DAX capacity by the hour and your DAX instances run with no long-term commitments. Pricing is per node-hour consumed and is dependent on the instance type you select. Each partial node-hour consumed is billed as a full hour. Pricing applies to all individual nodes in the DAX cluster. For example, if you have a three-node DAX cluster, you are billed for each of the separate nodes (three nodes in total) on an hourly basis. There is no charge for data transfer between Amazon Elastic Compute Cloud (Amazon EC2) and DAX within the same Availability Zone. Standard Amazon EC2 data transfer charges apply when transferring data between an Amazon EC2 instance and a DAX node in different Availability Zones of the same AWS Region. However, you are charged only for the data transfer into or out of the Amazon EC2 instance. There is no DAX data transfer charge for traffic into or out of the DAX node itself.
+
+![Dax Node TypevCPUMemory (GiB)Pricingdax.t3.small22$0.04 Per Hourdax.t3.medium24$0.08 Per Hourdax.t2.small12$0.04 Per Hourdax.t2.medium24$0.08 Per Hourdax.r5.large216$0.255 Per Hourdax.r5.xlarge432$0.509 Per Hourdax.r.pdf](https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10737046/Dax.Node.TypevCPUMemory.GiB.Pricingdax.t3.small22.0.04.Per.Hourdax.t3.medium24.0.08.Per.Hourdax.t2.small12.0.04.Per.Hourdax.t2.medium24.0.08.Per.Hourdax.r5.large216.0.255.Per.Hourdax.r5.xlarge432.0.509.Per.Hourdax.r.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
