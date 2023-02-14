@@ -196,7 +196,11 @@ Restoring a table from on-demand backups or PITR is charged based on the total s
 
 (Restoring from cold backup storage is supported for on-demand backups that are managed by AWS Backup only. You can opt-in to use AWS Backup from the AWS Management Console. Cold backup storage is not applicable for continuous backups with point-in-time recovery (PITR).)
 
+## Global tables
 
+DynamoDB charges for global tables usage based on the resources used on each replica table. Write requests for global tables are measured in replicated WCUs instead of standard WCUs. The number of replicated WCUs consumed for replication depends on the version of global tables you are using. For more information, see Best Practices and Requirements for Managing Global Tables. The pricing depends on your table class. Read requests and data storage are billed consistently with tables that are not global tables. If you add a table replica to create or extend a global table in new Regions, DynamoDB charges for a table restore in the added Regions per gigabyte of data restored. Cross-Region replication and adding replicas to tables that contain data also incur charges for data transfer out. 
+
+![Untitled design-5.pdf](https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10727656/Untitled.design-5.pdf)
 
 
 
