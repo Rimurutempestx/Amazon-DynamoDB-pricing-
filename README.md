@@ -243,7 +243,7 @@ Data transfer in and out refers to transfer into and out of DynamoDB. DynamoDB d
 
 ![Untitled design-6.pdf](https://github.com/Rimurutempestx/Amazon-DynamoDB-pricing-and-security/files/10737730/Untitled.design-6.pdf)
 
-
+# Amazon DynamoDB Security
 
 
 
